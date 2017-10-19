@@ -1,0 +1,103 @@
+#content {
+    margin: 67px 0;
+    min-height: 600px;
+}
+#content .solution_title{
+    background: url('../images/banner_bg7.jpg') center/cover no-repeat;
+    height: 350px;
+    color: white;
+    text-align: center;
+}
+#content .solution_title div{
+    background: rgba(43, 110, 55, 0.5);
+    font-size: 6em;
+    text-align: center;
+    line-height: 350px;
+    color: white;
+    font-weight: 600;
+}
+#content .product_list {
+    position: fixed;
+    top: 83px;
+}
+#content .product_list .pro_item {
+    width: 165px;
+    font-size: 18px;
+    padding: 11px 30px;
+    line-height: 20px;
+    display: inline-block;
+    color: white;
+    background: rgba(47,124,56,0.6);
+    margin: 2px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0 0 2px #444;
+}
+#content .product_list .pro_item:hover {
+    width: 170px;
+    color: #399b52;
+    background-color: white;
+    box-shadow: 0 0 3px #444;
+    font-size: 20px;
+    transition: 200ms;
+}
+#content .product_list .pro_active {
+    width: 170px;
+    color: #399b52;
+    background-color: white;
+    box-shadow: 0 0 3px #444;
+    font-size: 20px;
+}
+#content .product_state{
+    margin: 20px 240px;
+    padding: 0 20px;
+}
+#content .product_state h1 {
+    text-align: center;
+    color: #2a2a2a;
+    font-size: 1.8em;
+}
+#content .product_state h2 {
+    color: #399b52;
+    font-size: 1.5em;
+}
+#content .product_state p {
+    text-indent: 2em;
+    padding: 10px 0;
+    line-height: 24px;
+    font-size: 16px;
+}
+#content .product_state .product_txt {
+    display: none;
+}
+#content .product_state img {
+    margin: 20px;
+}
+#content .product_state img.pro_phone {
+    width: 300px;
+    height: 500px;
+}
+#content .product_state .obj_img {
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+#content .product_state .obj_img p {
+    height: 250px;
+    margin: 20px 0;
+    color: #4f4f4f;
+}
+#content .product_state .obj_img p:nth-child(1) {
+    padding-left: 420px;
+    background: url("../images/sensor.jpg") left top no-repeat;
+    background-size: 400px 300px ;
+}
+#content .product_state .obj_img p:nth-child(2) {
+    padding-right: 420px;
+    background: url("../images/www.jpg") right top no-repeat;
+    background-size: 400px 300px ;
+}
+#content .product_state .obj_img p:nth-child(3) {
+    padding-left: 420px;
+    background: url("../images/data.jpg") left top no-repeat;
+    background-size: 400px 300px ;
+}

@@ -1,0 +1,31 @@
+.about_us {
+  margin-top: 67px;
+  height: 350px;
+  background: url("../images/Helium-Flash_1.png") center/cover no-repeat;
+}
+.about_us > div {
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 6em;
+  text-align: center;
+  line-height: 350px;
+  color: white;
+  font-weight: 600;
+  word-spacing: 1em;
+}
+.about_txt {
+  width: 70%;
+  margin: 60px auto 120px;
+}
+.about_txt h1 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 40px;
+}
+.about_txt p {
+  text-indent: 2em;
+  padding: 15px 0;
+  line-height: 30px;
+  font-size: 18px;
+  color: #3f3f3f;
+  font-family: "MicrosoftYaHei", "Microsoft YaHei", "微软雅黑", STHeiti, SimSun, "宋体", SimHei, Arial;
+}
